@@ -1,5 +1,5 @@
-import './App.css'
-import Name from './components/Name'
+import '../App.css'
+import Name from './Name'
 
 function App() {
 
