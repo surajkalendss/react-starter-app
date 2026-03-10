@@ -1,11 +1,11 @@
 import './App.css'
-import Hello from './Hello'
+import Name from './components/Name'
 
 function App() {
 
   return (
     <>
-      <Hello/>
+      <Name name='Suraj Kale'/>
     </>
   )
 }
