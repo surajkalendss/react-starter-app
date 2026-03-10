@@ -30,3 +30,11 @@
     "vite": "^7.3.1"
   }
 }
+
+// devDependencies:  are used in development only this does not include in the final 
+// production build/bundle
+// e.g. typescript, eslint, @type/node, vite
+
+// dependencies : are actully needed to run the to run the project in the 
+// production
+// e.g. react, react-icons, react-router
