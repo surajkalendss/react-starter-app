@@ -7,13 +7,15 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
-  "dependencies": {
+  "dependencies": { 
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.6.0"
   },
-  "devDependencies": {
+  "devDependencies": { 
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
@@ -28,3 +30,11 @@
     "vite": "^7.3.1"
   }
 }
+
+// devDependencies:  are used in development only this does not include in the final 
+// production build/bundle
+// e.g. typescript, eslint, @type/node, vite
+
+// dependencies : are actully needed to run the to run the project in the 
+// production
+// e.g. react, react-icons, react-router
